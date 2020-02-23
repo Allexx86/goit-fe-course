@@ -1,0 +1,149 @@
+
+}
+html {
+    box-sizing: border-box;
+}
+h1 {
+    display: none;
+}
+
+*,
+* ::before,
+* ::after{
+    box-sizing: inherit;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Raleway","Arial",sans-serif;
+    color: b4ad9e;
+    width: 900px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    vertical-align: middle;
+     width: 900px;
+     margin: 0px avto;
+     background-color: #008080;
+ }
+
+ .container nav {
+     color: b4ad9e;
+     font-size: 14px;
+ }
+
+
+ .container-features-list li:not(:last-child) {
+    margin-bottom: 135px;
+ }
+
+ .container-featureses-list li:not(:last-child) {
+     margin-bottom: 135px;
+ }
+
+.site-nav {
+    max-width: 900px;
+    margin: 1px;
+    padding-right: 161px;
+    padding-block-end: 86px;
+
+}
+.site-navigation {
+    display: inline-block;
+    vertical-align: middle;
+    color: 626262;
+    width: 900px;
+    margin: 0px;
+    padding:0px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 60px;
+}
+
+#text {
+    margin-left: 168px;
+    color: 9abbfb;
+    text-decoration: underline;
+    width: 72px;
+    height: 30px;
+}
+
+.container-features {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 420px;
+    margin: 0px avto;
+    padding: 0px;
+}
+
+.container-features-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    border-right: 1px;
+    padding-left: 0px;
+    padding-right: 28px;
+}
+
+.container-features-list li {
+    display:inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    padding: 0px;
+    width: 420px;
+    height: 480px;
+    list-style: none;
+
+}
+.container-featureses {
+    display: inline-block;
+    width: 420px;
+    padding-bottom: 80px;
+
+}
+
+.container-featureses-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-left: 28px;
+    border-left: 0px;
+    padding-left: 28px;
+
+}
+
+.container-featureses-list li {
+    display:inline-block;
+    vertical-align: middle;
+    width: 420px;
+    height: 480px;
+    list-style-type: none;
+}
+
+.button-container {
+    display:inline-block;
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 358px;
+    margin-right: 379px;
+    text-align: center;
+}
+
