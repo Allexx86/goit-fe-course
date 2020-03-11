@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+h1 {
+    display: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  list-style-type: none;
+}
+body {
+    background-color: #ffffff;
+}
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+ }
+.container {
+  vertical-align: top;
+  width: 1200px;
+}
+
+.menu-nav {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: none;
+  height: 37px;
+  margin: 0px, 0px,4px;
+
+}
+.menu-nav-logo {
+  justify-content: flex-start;
+  max-width: 86px;
+}
