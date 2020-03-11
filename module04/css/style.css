@@ -42,6 +42,9 @@ li:hover .vit-vul-gut {
 li:hover .vit-vul {
   background-color: #1abc9c;
 }
+ul:hover li {
+  background-color: #7fd9c7 ;
+}
 .tem-list-tu {
   margin-top: 0px;
   margin-left: 0px;
