@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
 }
 
-.shrift {
+.fontt {
   font-family: "Open Sans";
 }
 section.team-van {
@@ -27,25 +27,25 @@ nav.main-nav {
 .flit {
   width: 350px;
 }
-.team-tu {
+.team-t {
   float: left;
 
   margin-right: 30px;
 }
 
-.team-tu:nth-child(3n) {
+.team-t:nth-child(3n) {
   margin-right: 0px;
 }
-li:hover .vit-vul-gut {
+li:hover .vip-pc-lot {
   background-color: #7fd9c7;
 }
-li:hover .vit-vul {
+li:hover .vip-pc {
   background-color: #1abc9c;
 }
 ul:hover li {
   background-color: #7fd9c7 ;
 }
-.tem-list-tu {
+.tem-list-t {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -61,7 +61,7 @@ ul:hover li {
   margin-bottom: 28px;
   margin-right: 28px;
 }
-.team-title-tu {
+.team-title-t {
   margin-bottom: 81px;
 }
 .team-list-item:nth-child(4n) {
@@ -85,13 +85,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-.tekst {
+.text {
   font-size: 18px;
   line-height: 1.5;
   margin-top: 0px;
   font-weight: 600;
 }
-.tekst-tu {
+.text-t {
    font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
@@ -112,11 +112,11 @@ img {
   margin: 0px;
   border: 0px;
 }
-.tem-list-tu {
+.tem-list-t {
   list-style: none;
 }
 
-.vit p {
+.vip p {
   list-style: none;
   padding-top: 4px;
   font-size: 18px;
@@ -125,7 +125,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
-.vit-vul-gut {
+.vip-pc-lot {
   padding-left: 10px;
   float: left;
   height: 40px;
@@ -133,7 +133,7 @@ img {
   background-color: #8c8c8c;
   margin: 0px;
 }
-.vit-vul {
+.vip-pc {
   padding-left: 13px;
   margin: 0px;
   float: left;
@@ -155,7 +155,7 @@ h2 {
   margin: auto;
 }
 
-.tekst::after {
+.text::after {
   display: block;
   margin: 15px;
   width: 136px;
@@ -199,11 +199,11 @@ ul.site-navigation {
 .command {
   margin-bottom: 10px;
 }
-.donlod {
+.load {
   display: inline-block;
   border: 0px;
 }
-.donlod-tu {
+.load-t {
   border: 0px;
   font-size: 16px;
   line-height: 1.5;
@@ -217,7 +217,7 @@ ul.site-navigation {
   color: #ffffff;
   font-weight: 300;
 }
-button.donlod-tu {
+button.load-t {
   border-radius: 6px;
 }
 img {
@@ -230,7 +230,7 @@ img {
   width: 255px;
   height: 282px;
 }
-nav.vit {
+nav.vip {
   width: 100%;
   position: absolute;
   z-index: 2;
