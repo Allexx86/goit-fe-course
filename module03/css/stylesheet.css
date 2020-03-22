@@ -1,131 +1,148 @@
 html {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }
 h1 {
-    display: none;
+  display: none;
 }
-
 
 *,
 * ::before,
-* ::after{
-    box-sizing: inherit;
-    list-style-type: none;
+* ::after {
+  box-sizing: inherit;
+  list-style-type: none;
 }
 
 body {
-    font-family: "Raleway","Arial",sans-serif;
-    background-color: #ffffff;
-    width: 900px;
-    font-size: 14px;
-    line-height: 21px;
-
+  font-family: "Raleway", "Arial", sans-serif;
+  background-color: #ffffff;
+  width: 900px;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-    vertical-align: top;
-    width: 900px;
-    background-color: #ffffff;
- }
-
+  width: 900px;
+  margin: 0, avto;
+}
 
 .site-nav {
-    max-width: 900px;
-    color: b4ad9e;
-    margin: 1px;
-    margin-top: 40px;
-    margin-bottom: 92px;
-    padding-right: 161px;
-    font-size: 14px;
-    text-align: center;
-
+  max-width: 900px;
+  color: #b4ad9e;
+  margin: 1px;
+  font-size: 14px;
+  text-align: center;
 }
 .site-navigation {
-    display: inline-block;
-    vertical-align: middle;
-    color: 626262;
-    font-family: [Ubuntu];
-    width: 900px;
-    padding:0px;
-    font-size: 14px;
-    line-height: 17px;
-    list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: [Ubuntu];
+  width: 100%;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 17;
 }
 
 .site-navigation li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .site-navigation li:not(:last-child) {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .container-features li:not(:last-child) {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .container-features-item:nth-child(2n) {
-    margin-left: 54px;
+  margin-left: 54px;
+}
+
+.site-navigation a {
+  color: #b4b4b4;
+  font-family: "Playfair Display", serif;
 }
 
 
-.container-features-item article,a,nav,h2,p {
-    margin-top: 30px;
-    margin-bottom: 30px;
-} 
+.site-navigation li:hover a {
+  color: #03a9f4;
+  font-family: "Playfair Display", serif;
+
+}
+.reggy {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+.joom {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-style: regular;
+  line-height: 1.714;
+}
+
+.container-features-item a {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .container-features {
-    display: inline-block;
-    box-sizing: content-box;
-    margin: 0px avto;
-    padding: 0px;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 0px;
 }
 
 .container-features-list {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
 }
 
+.container-features-item img {
+  width: 420px;
+  height: 288px;
+}
 
 .container-features-list li {
-    display:inline-block;
-    vertical-align: middle;
-    margin-top: 0px;
-    margin-bottom: 100px;
-    padding: 0px;
-    width: 420px;
-    height: 480px;
-    list-style: none;
-
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 100px;
+  padding: 0px;
+  width: 420px;
+  height: 480px;
+  list-style: none;
 }
-
-.container article {
-    margin-bottom: 4px;
-}
-
 
 .button-container {
-    display:block;
-    box-sizing: border-box;
-    width: 164px;
-    height: 60px;
-    margin-left: 358px;
-    margin-right: 379px;
-    margin-bottom: 70px;
-}
-.button-container p {
-    font-size: 20px;
-    font-family: [PlayfairDisplay];
-    margin: 0px;
-    padding: 20px 20px 16px 20px;
+  display: block;
+  box-sizing: border-box;
+  width: 164px;
+  height: 60px;
+  margin-left: 358px;
+  margin-right: 379px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-family: [PlayfairDisplay];
+  text-align: center;
+  padding: avto;
 
 }
