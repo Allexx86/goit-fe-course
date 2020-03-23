@@ -41,9 +41,7 @@ body {
   list-style: none;
 }
 
-.site-navigation:not(:last-child) a {
-  margin-right: 55px;
-}
+
 .team-list-i {
   display: flex;
   padding: 0px;
@@ -144,6 +142,8 @@ h2::after {
   transform: translateX(-50%);
 }
 .team-lisit {
+  flex-direction: row;
+  justify-content: space-around;
   margin-bottom: 93px;
 }
 .team-list-i:nth-of-type(4n) {
@@ -181,10 +181,6 @@ h2::after {
 li .punct {
   position: relative;
   padding-bottom: 12px;
-}
-
-li.punct:not(:last-child) {
-  margin-right: 55px;
 }
 
 
