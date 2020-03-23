@@ -40,6 +40,10 @@ body {
   margin: 0px;
   list-style: none;
 }
+
+.site-navigation:not(:last-child) a {
+  margin-right: 55px;
+}
 .team-list-i {
   display: flex;
   padding: 0px;
@@ -248,10 +252,7 @@ li .punct {
   border: 0px;
   border: 1px solid;
 }
-hr {
-  margin: 0;
-  padding: 0;
-}
+
 .newere {
   display: flex;
   justify-content: flex-end;
