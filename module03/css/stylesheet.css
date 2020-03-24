@@ -28,7 +28,7 @@ img {
 
 .container {
   width: 900px;
-  margin: 0, avto;
+  margin: 0 avto;
 }
 
 .site-nav {
@@ -99,10 +99,6 @@ h2 {
   line-height: 1.714;
 }
 
-.container-features-item a {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 .container-features {
   display: inline-block;
@@ -128,10 +124,9 @@ h2 {
 .container-features-list li {
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 100px;
+  margin-bottom: 100px; 
   padding: 0px;
   width: 420px;
-  height: 480px;
   list-style: none;
 }
 
