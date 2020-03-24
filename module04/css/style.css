@@ -162,7 +162,7 @@ h2::after {
   content: "";
   background-color: #1abc9c;
   bottom: 0px;
-  top: 50%x;
+  top: 90px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -175,7 +175,6 @@ h2::after {
   position: relative;
   font-size: 18px;
   line-height: 1.5;
-  margin-top: 50px;
   font-weight: 600;
   padding-bottom: 13px;
   margin: 0;
