@@ -1,96 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <title>DZmodule07</title>
-</head>
-<body>
-    <header class="container">
-        <nav class="site-nav">
-        <div class="site-nav-logo">
-            <p>Golden</p>
-        </div>
-        <div class="site-nav-menu">
-            <ul class="menu-list">
-                <li class="list-item">
-                    <a href="#">Home</a>
-                </li>
-                <li class="list-item">
-                    <a href="#">Services</a>
-                </li>
-                <li class="list-item">
-                    <a href="#">Portfolio</a>
-                </li>
-                <li class="list-item">
-                    <a href="#">About</a>
-                </li>
-                <li class="list-item">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        </nav>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/stylescss.css" />
+  </head>
+  <body>
+    <h1 class="visually-hidden">Golden Services</h1>
+    <header class="page-header container">
+      <nav class="main-nav ">      
+         <p class="logo">Golden</p>
+        <ul class="site-navigation ">
+          <li><a href="#" >Home</a></li>
+          <li><a href="#" >Service</a></li>
+          <li><a href="#" >Portfolio</a></li>
+          <li><a href="#" >About</a></li>
+          <li><a href="#" >Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="container">
-        <section class="services">
-            <div class="services-title">
-            <h2 class="title-1">Services</h2>
-            <h3 class="title-2">Proint iaculis purus consequat sem cure</h3>
-            </div> 
-            <div class="servies-list">
-                <ul class="list-go">
-                    <li class="go-item">
-                        <div class="item-icon">
-                        <img src="img/Circle-1.png" alt="icon">
-                        <img src="img/Icon-Basket.png" alt="Icon-Basket">
-                        </div>
-                        <h4 class="item-title">E-Commerce</h4>
-                        <p>Proin iaculis purus consequat sem cure digni ssim.
-                           Dones porttitora entum suscipit aenean rhoncus
-                           posuere odio in tincidunt.
-                        </p>
-                    </li>
-                    <li class="go-item">
-                        <div class="item-icon">
-                            <img src="img/Circle-2.png" alt="icon">
-                            <img src="img/Icon-Laptop.png" alt="Icon-Laptop">
-                        </div>
-                        <h4 class="item-title">Responsive Web</h4>
-                        <p>Proin iaculis purus consequat sem cure digni ssim.
-                           Dones porttitora entum suscipit aenean rhoncus
-                           posuere odio in tincidunt.
-                        </p>
-                    </li>
-                    <li class="go-item">
-                        <div class="item-icon">
-                            <img src="img/Circle-3.png" alt="icon">
-                            <img src="img/Icon-Locked.png" alt="Icon-Locked">
-                        </div>
-                        <h4 class="item-title">Web Security</h4>
-                        <p>Proin iaculis purus consequat sem cure digni ssim.
-                           Dones porttitora entum suscipit aenean rhoncus
-                           posuere odio in tincidunt.
-                        </p>
-                    </li>
-                </ul>
+    <main class="main ">
+      <!-- team section -->
+      <section class="team ">
+        <div class="team-div">
+          <h2 class="team-title">Services</h2>
+        </div>
+        <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+        <ul class="team-lister ">
+          <li class="team-list">
+            <div class="team-list-item">
+              <div class="all">
+                <img class="circle" src="img/Circle-1.png" alt="circle" />
+                <img class="icon" src="img/Icon-Basket.png" alt="Icon-Basket" />
+              </div>
+              <div class="des">
+                <nav class="desname">E-Commerce</nav>
+                <p class="teamp">
+                  Proin iaculis purus consequat sem cure digni ssim.Donec
+                  porttiora entum suscipit aenen rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </div>
             </div>
-        </section>
-        <section class="contact">
-            <div class="contact-form">
-            <h2 class="contact-title">contact us</h2>
-            <h3 class="title-2">Proint iaculis purus 
-                consequat sem cure</h3>            
-                <form action="#" method="post">
-                    <input type="text" placeholder="YOUR NAME*">
-                    <input type="mail" placeholder="YOUR E-MAIL*">
-                    <input type="text" placeholder="SUBJECT">
-                    <textarea name="body" rows="15" cols="45" placeholder="YOUR MESSAGE"></textarea>
-                    <input type="submit" value="SEND MESSAGE" id="send-messedge">
-                </form>
+          </li>
+          <li class="team-list">
+            <div class="team-list-item">
+              <div class="all">
+                <img class="circle" src="img/Circle-2.png" alt="circle" />
+                <img class="icon" src="img/Icon-Laptop.png" alt="Icon-Laptop" />
+              </div>
+              <div class="des">
+                <nav class="desname">Responsive Web</nav>
+                <p class="teamp">
+                  Proin iaculis purus consequat sem cure digni ssim.Donec
+                  porttiora entum suscipit aenen rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </div>
             </div>
-        </section>
+          </li>
+          <li class="team-list">
+            <div class="team-list-item">
+              <div class="all">
+                <img class="circle"  src="img/Circle-3.png" alt="circle" />
+                <img class="icon" src="img/Icon-Locked.png" alt="Icon-Locked" />
+              </div>
+              <div class="des">
+                <nav class="desname">Web Security</nav>
+                <p class="teamp">
+                  Proin iaculis purus consequat sem cure digni ssim.Donec
+                  porttiora entum suscipit aenen rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!--team-contact section-->
+
+      <section class="team-contact">
+        <div class="formaa"></div>
+        <div class="banner container"></div>
+        <div class="wall">
+          <div class="team-div">
+            <h2 class="team-title-two">Contact Us</h2>
+          </div>
+          <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+        </div>
+        <form class="field" method="POST" action="#">
+          <div class="enter">
+            <div class="toch">
+              <input type="name" name="yourname" placeholder="YOUR NAME*" required />
+              <input type="email" name="youremail" placeholder="YOUR E-MAIL*" required />
+              <input type="text" name="subjeck" placeholder="SUBJECT" />
+            </div>
+            <textarea 
+            type="message" 
+            name="yourmessege" 
+            placeholder="YOUR MESSAGE*"
+            required 
+            cols="30" 
+            rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <button class="send">Send Message</button>
+          </div>
+        </form>
+      </section>
     </main>
-</body>
-<footer></footer>
+    <footer class="end container">
+    </footer>
+  </body>
 </html>
