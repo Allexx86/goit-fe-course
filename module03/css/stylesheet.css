@@ -1,146 +1,150 @@
 html {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
+
 h1 {
-  display: none;
+    display: none;
 }
 
 *,
 * ::before,
 * ::after {
-  box-sizing: inherit;
-  list-style-type: none;
+    box-sizing: inherit;
+    list-style-type: none;
 }
 
 body {
-  font-family: "Raleway", "Arial", sans-serif;
-  background-color: #ffffff;
-  width: 900px;
-  font-size: 14px;
-  line-height: 1.2;
+    font-family: "Raleway", "Arial", sans-serif;
+    background-color: #ffffff;
+    width: 900px;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
-  width: 900px;
-  margin: 0 avto;
+    width: 900px;
+    margin: 0 avto;
 }
 
 .site-nav {
-  color: #b4ad9e;
-  text-align: center;
-  margin-bottom: 60px;
+    color: #b4ad9e;
+    text-align: center;
+    margin-bottom: 60px;
 }
+
 .site-navigation {
-  display: inline-block;
-  vertical-align: middle;
-  font-family: [Ubuntu];
-  width: 100%;
-  padding: 0px;
-  font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: [Ubuntu];
+    width: 100%;
+    padding: 0px;
+    font-size: 14px;
 
 }
 
 .site-navigation li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .site-navigation li:not(:last-child) {
-  margin-right: 60px;
+    margin-right: 60px;
 }
 
 .container-features li:not(:last-child) {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .container-features-item:nth-child(2n) {
-  margin-left: 54px;
+    margin-left: 54px;
 }
 
 .site-navigation a {
-  color: #b4b4b4;
-  font-family: "Playfair Display", serif;
+    color: #b4b4b4;
+    font-family: "Playfair Display", serif;
 }
 
 
 .site-navigation li:hover a {
-  color: #03a9f4;
-  font-family: "Playfair Display", serif;
+    color: #03a9f4;
+    font-family: "Playfair Display", serif;
 
 }
+
 .reggy {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color:  #b4b4b4;
-  text-transform: uppercase;
-  margin-top: 0px;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #b4b4b4;
+    text-transform: uppercase;
+    margin-top: 0px;
 }
+
 .reggy p {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 
 h2 {
-  font-size: 30px;
-  font-family: "Playfair Display";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
 }
 
 .joom {
-  font-size: 14px;
-  font-family: "Playfair Display";
-  color: rgb(98, 98, 98);
-  font-style: regular;
-  line-height: 1.714;
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    font-style: regular;
+    line-height: 1.714;
 }
 
 
 .container-features {
-  display: inline-block;
-  box-sizing: content-box;
-  padding: 0px;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 0px;
 }
 
 .container-features-list {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .container-features-item img {
-  width: 420px;
-  height: 288px;
-  margin-bottom: 30px;
+    width: 420px;
+    height: 288px;
+    margin-bottom: 30px;
 }
 
 .container-features-list li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 100px; 
-  padding: 0px;
-  width: 420px;
-  list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    padding: 0px;
+    width: 420px;
+    list-style: none;
 }
 
 .button-container {
-  display: block;
-  box-sizing: border-box;
-  width: 164px;
-  height: 60px;
-  margin-left: 358px;
-  margin-right: 379px;
-  margin-bottom: 70px;
-  font-size: 20px;
-  font-family: [PlayfairDisplay];
-  text-align: center;
-  padding: avto;
+    display: block;
+    box-sizing: border-box;
+    width: 164px;
+    height: 60px;
+    margin-left: 358px;
+    margin-right: 379px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-family: [PlayfairDisplay];
+    text-align: center;
+    padding: avto;
 
 }
