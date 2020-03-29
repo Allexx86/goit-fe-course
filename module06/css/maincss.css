@@ -34,11 +34,13 @@ body {
 
 .site-navigation {
   display: flex;
-  width: 490px;
   justify-content: space-between;
   padding: 0px;
   margin: 0px;
   list-style: none;
+}
+.site-navigation li:not(:last-child) {
+  margin-right: 60px;
 }
 
 
