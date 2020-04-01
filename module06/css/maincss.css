@@ -113,7 +113,6 @@ h2 {
   color: #333333;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 35px;
   margin: 0px;
   margin-bottom: 66px;
   font-weight: 700;
@@ -126,7 +125,6 @@ h2.team-title-t {
   color: #333333;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 35px;
   margin: 0px;
   margin-bottom: 42px;
   font-weight: 700;
@@ -251,7 +249,7 @@ li .punct {
   color: #b3b3b3;
   width: 230px;
   height: 40px;
-  border: 0px;
+  padding: 1px;
   border: 1px solid;
 }
 
