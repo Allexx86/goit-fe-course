@@ -12,6 +12,7 @@ body {
   color: #515151;
   font-size: 14px;
   line-height: 26px;
+  background-color: rgb(233, 240, 253);
 }
 
 img {
@@ -25,6 +26,7 @@ img {
   background-color: #323232;
   width: 100%;
   height: 88px;
+  margin: 0px auto;
 }
 
 
@@ -86,6 +88,10 @@ img {
   padding-bottom: 100px;
 }
 
+.team-list {
+  margin-bottom: 5px;
+}
+
 .price p {
   list-style: none;
   padding-top: 4px;
@@ -121,7 +127,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 900;
   margin-bottom: 80px;
-  padding-bottom: 120px;
+  top: 15px;
 }
 
 .container {
@@ -129,7 +135,7 @@ h2 {
   margin: auto;
 }
 
-h2::after {
+h2.new::after {
   position: absolute;
   width: 165px;
   height: 8px;
@@ -137,14 +143,16 @@ h2::after {
   content: "";
   background-color: #1abc9c;
   bottom: 0px;
-  top: 85px;
-  top: 50%x;
+  top: 85px; 
   left: 50%;
   transform: translateX(-50%);
 }
 .site-navigation li {
   margin-right: 35px;
   float: left;
+}
+.site-navigation li:last-child {
+  margin-right: 0px;
 }
 
 .site-navigation li:hover a {
@@ -166,6 +174,9 @@ a.logo {
   height: 21px;
   margin: 0px;
   padding-top: 2px;
+}
+.spiner {
+  background-image: url("../img/bakground.png");
 }
 
 .carousel {
@@ -209,7 +220,7 @@ nav.price {
   z-index: 2;
 }
 .carou {
-  position: absolute;
+  /* position: absolute; */
   float: none;
   border: none;
   padding: 0px;

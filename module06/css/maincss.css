@@ -151,7 +151,6 @@ h2::after {
   background-color: #f38181;
   top: 75px;
   bottom: 0px;
-  top: 50%x;
   left: 50%;
   transform: translateX(-50%);
 }
