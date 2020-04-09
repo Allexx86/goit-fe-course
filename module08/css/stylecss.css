@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
 }
 
-.tecst {
+.name {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #333333;
@@ -42,10 +42,10 @@ h3 {
   line-height: 1.2;
   margin-bottom: 15px;
 }
-.page-header {
+.nav-header {
   padding: 0;
 }
-.main-nav {
+.navigation {
   position: relative;
   width: 320px;
   margin: auto;
@@ -73,14 +73,14 @@ li {
   padding: 0;
   margin-bottom: 20px;
 }
-.cart-abs {
+.cart-a {
   position: absolute;
   bottom: 0px;
   top: 70%;
   left: 70%;
   
 }
-.cart-tu {
+.cart-b {
   display: inline-block;
   position: relative;
 }
@@ -92,7 +92,7 @@ li {
   left: 50%;
   transform: translateX(-50%);
 }
-.tekst-tu {
+.prevei {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   display: inline-block;
@@ -111,20 +111,20 @@ img {
 .visually {
   text-transform: uppercase;
 }
-.main-nav {
+.navigation {
   position: relative;
 }
 
-.ses {
+.navig {
   position: relative;
   width: 320px;
   height: 540px;
-  background-image: url("../img/Vector\ Smart\ Object.png");
+  background-image: url("../img/mobile\ object.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.conteer {
+.up {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   position: absolute;
@@ -140,7 +140,7 @@ img {
   right: 86px;
   top: 20px;
 }
-.contee {
+.in {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   position: absolute;
@@ -156,19 +156,19 @@ img {
   top: 20px;
   right: 162px;
 }
-.contee:hover {
+.in:hover {
   border-radius: 20px;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(255, 255, 255);
 }
-.conteer:hover {
+.up:hover {
   border-radius: 20px;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(255, 255, 255);
 }
-.buut-c {
+.butt-part {
   position: absolute;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -186,7 +186,7 @@ img {
   left: 50%;
   transform: translateX(-50%);
 }
-.wer {
+.partner {
   font-family: "Roboto", sans-serif;
   position: absolute;
   font-weight: 300;
@@ -219,7 +219,7 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
-.tecsst {
+.logo {
   position: absolute;
   font-family: "Montserrat", sans-serif;
   padding: 0;
@@ -235,7 +235,7 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
-.bub {
+.other {
   color: #ff4e50;
   width: 280px;
   height: 40px;
@@ -253,7 +253,7 @@ h1 {
   font-weight: 700;
 }
 
-.fut {
+.down {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -282,17 +282,17 @@ h1 {
   .list-item {
     width: 256px;
   }
-  .bub {
+  .other {
     width: 190px;
   }
 
-  .ses {
+  .navig {
     width: 768px;
     height: 700px;
-    background-image: url("../img/Vector\ 2\ Smart\ Object.png");
+    background-image: url("../img/tab\ object.png");
     background-color: rgb(26, 25, 21);
   }
-  .main-nav {
+  .navigation {
     width: 768px;
   }
   h1 {
@@ -300,12 +300,12 @@ h1 {
     width: 503px;
     font-size: 52px;
   }
-  .wer {
+  .partner {
     font-size: 24px;
     width: 404px;
     top: 365px;
   }
-  .buut-c {
+  .butt-part {
     height: 40px;
     width: 230px;
     top: 426px;
@@ -313,15 +313,15 @@ h1 {
   .conn {
     width: 172px;
   }
-  .conteer {
+  .up {
     top: 40px;
     right: 50px;
   }
-  .contee {
+  .in {
     top: 40px;
     right: 135px;
   }
-  .tecsst {
+  .logo {
     top: 42px;
     left: 50px;
     transform: none;
@@ -333,7 +333,7 @@ h1 {
     height: auto;
     margin: auto;
   }
-  .team-van {
+  .team-partners {
     text-align: center;
   }
   .list {
@@ -356,26 +356,26 @@ h1 {
   .list-item {
     width: 235px;
   }
-  .bub {
+  .other {
     width: 197px;
     margin-bottom: 72px;
   }
-  .container.fut {
+  .container.down {
     padding-top: 35px;
   }
-  .tekst-tu {
+  .prevei {
     margin-bottom: 0px;
   }
 
-  .ses {
+  .navig {
     width: 1440px;
     height: 700px;
-    background-image: url("../img/Vector\ Smart\ 1\ Object.png");
+    background-image: url("../img/decktop\ object.png");
     background-color: rgb(26, 25, 21);
     background-position: center;
   }
 
-  .main-nav {
+  .navigation {
     width: 1440px;
   }
   h1 {
@@ -383,12 +383,12 @@ h1 {
     width: 503px;
     font-size: 52px;
   }
-  .wer {
+  .partner {
     font-size: 24px;
     width: 404px;
     top: 365px;
   }
-  .buut-c {
+  .butt-part {
     height: 40px;
     width: 230px;
     top: 426px;
@@ -396,15 +396,15 @@ h1 {
   .conn {
     width: 172px;
   }
-  .conteer {
+  .up {
     top: 40px;
     right: 250px;
   }
-  .contee {
+  .in {
     top: 40px;
     right: 335px;
   }
-  .tecsst {
+  .logo {
     top: 42px;
     left: 250px;
     transform: none;
