@@ -227,7 +227,7 @@ nav.price {
  padding-right: 80px;
  text-align: center;
  /*top: -100px;*/
- left: 200px;
+ /* left: 200px; */
  /*z-index: 2;*/
 }
 .carou {
@@ -236,7 +236,7 @@ nav.price {
   border: none;
   padding: 0px;
   margin: 0px;
-  width: 790px;
+  /* width: 790px; */
   font-weight: 300;
   line-height: 1.2;
   font-size: 22px;
@@ -244,8 +244,8 @@ nav.price {
   color: #ffffff;
   text-transform: uppercase;
   /* padding-right: 100px; */
-  top: -5px;
-  left: 200px;
+  /* top: -5px; */
+  /* left: 200px; */
   /*z-index: 2;*/
 }
 .carleft {

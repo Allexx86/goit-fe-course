@@ -79,7 +79,6 @@ li {
   bottom: 0px;
   top: 70%;
   left: 70%;
-  /* transform: translateX(-50%); */
 }
 .cart-tu {
   display: inline-block;
@@ -120,7 +119,7 @@ img {
   position: absolute;
   width: 320px;
   height: 540px;
-  background-image: url("../img/Vector\ Smart\ Object.png");
+  background-image: url("../img/mobile\ object.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,10 +136,6 @@ img {
   height: 38px;
   border: 0;
   color: #ffffff;
-  /* border-radius: 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255); */
   background-color: rgba(26, 25, 21, 0);
   right: 86px;
   top: 20px;
@@ -157,12 +152,7 @@ img {
   height: 38px;
   border: 0;
   color: #ffffff;
-  /* border-radius: 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255); */
   background-color: rgba(26, 25, 21, 0);
-  /* left: 64px; */
   top: 20px;
   right: 162px;
 }
@@ -309,12 +299,11 @@ h1 {
     position: absolute;
     width: 768px;
     height: 700px;
-    background-image: url("../img/Vector\ 2\ Smart\ Object.png");
+    background-image: url("../img/tab\ object.png");
     background-color: rgb(26, 25, 21);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: -2; */
   }
   .dde {
     display: flex;
@@ -331,7 +320,6 @@ h1 {
     margin-bottom: 700px;
   }
   .main-nav {
-    /* height: 0; */
     width: 768px;
   }
   h1 {
@@ -370,8 +358,6 @@ h1 {
 @media (min-width: 942px) {
   .container {
     width: 100%;
-    /* height: auto;
-    margin: auto; */
   }
 
   .team-van {
@@ -407,20 +393,16 @@ h1 {
   .tekst-tu {
     margin-bottom: 0px;
   }
-  /* .sese {
-    display: block;
-    margin: auto;
-  } */
+
   .sesee {
     position: absolute;
     width: 100%;
     height: 700px;
-    background-image: url("../img/Vector\ Smart\ 1\ Object.png");
+    background-image: url("../img/decktop\ object.png");
     background-color: rgb(26, 25, 21);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: -2; */
   }
   .page-header {
     display: flex;
@@ -436,11 +418,8 @@ h1 {
     width: 1440px;
   }
   .main-nav {
-    /* height: 0; */
-    /* position: absolute; */
     width: 1440px;
     margin: 0 auto;
-    /* z-index: 3; */
   }
   h1 {
     top: 220px;
