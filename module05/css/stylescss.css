@@ -176,6 +176,7 @@ a.logo {
   padding-top: 2px;
 }
 .spiner {
+  position: relative;
   width: 100%;
   height: 600px;
   background-image: url("../img/bakground.png");
@@ -195,10 +196,10 @@ position: relative;
   display: inline-block;
   position: absolute;
   text-align: center;
-  margin-top: 300px;
- 
-  
-}
+  top: 0;
+  z-index: 2;
+  margin-top: 200px;
+ }
 
 .team-list-itemet {
   position: relative;
@@ -210,22 +211,24 @@ nav.price {
   z-index: 2;
 }
 .car {
-  position: absolute;
-  float: none;
-  border: none;
-  padding: 0px;
-  margin: 0px;
-  width: 790px;
-  height: 0px;
-  font-weight: 900;
-  line-height: 1.6;
-  font-size: 53px;
-  color: #ffffff;
-  text-transform: uppercase;
-  padding-right: 80px;
-  top: -100px;
-  left: 200px;
-  z-index: 2;
+ /* position: absolute;*/
+ float: none;
+ border: none;
+ padding: 0px;
+ margin: 0px;
+ margin-left: 230px;
+ width: 790px;
+ /* height: 0px;*/
+ font-weight: 900;
+ line-height: 1.6;
+ font-size: 53px;
+ color: #ffffff;
+ text-transform: uppercase;
+ padding-right: 80px;
+ text-align: center;
+ /*top: -100px;*/
+ left: 200px;
+ /*z-index: 2;*/
 }
 .carou {
   /* position: absolute; */
@@ -234,24 +237,26 @@ nav.price {
   padding: 0px;
   margin: 0px;
   width: 790px;
-  height: 0px;
   font-weight: 300;
   line-height: 1.2;
   font-size: 22px;
+  text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  padding-right: 100px; 
+  /* padding-right: 100px; */
   top: -5px;
   left: 200px;
-  z-index: 2;
+  /*z-index: 2;*/
 }
 .carleft {
-  position: absolute;
-  display: block;
+  /*position: absolute;*/
+  display:block;
   float: left;
   border: none;
   padding: 0px;
   margin: 0px;
+  margin-left: 50px;
+  margin-top: -104px;
   width: 104px;
   height: 104px;
   background-image: url("../img/left.png");
@@ -260,17 +265,18 @@ nav.price {
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
-  top: -100px;
-  left: 25px;
-  z-index: 2;
+  /*top: -100px;*/
+  /* left: 25px; */
+  /*z-index: 2;*/
 }
 .carright {
-  position: absolute;
-  display:inline-block;
-  float: none;
+  /*position: absolute;*/
+  display:block;
+  float: right;
   border: none;
   padding: 0px;
   margin: 0px;
+  margin-top: -104px;
   width: 104px;
   height: 104px;
   background-image: url("../img/right.png");
@@ -279,9 +285,9 @@ nav.price {
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
-  top: -100px;
+  /*top: -100px;
   right: 25px;
-  z-index: 2;
+  z-index: 2;*/
 }
 
 .cart-button {
@@ -369,15 +375,16 @@ nav.price {
   height: 100%;
   background-color: rgb(0, 0, 2);
   opacity: 0.522;
+  top: 0px;
   z-index: 1;
-}
+}*/
 .bacimg {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-}*/
+}
 .over {
   position: absolute;
   width: 100%;
@@ -401,8 +408,8 @@ nav.price {
   opacity: 1;
 }
 /*.carousel:hover .titan {
-  opacity: 0.522;*/
-}
+  opacity: 0.522;
+}*/
 .team-list-itemet:hover .over {
   opacity: 0.549;
 }
