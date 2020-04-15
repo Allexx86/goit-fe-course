@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <title>DZmodule07</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400i&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/stylescss.css" />
   </head>
   <body>
     <h1 class="visually-hidden">Golden Services</h1>
     <header class="page-header container">
-      <nav class="main-nav ">      
-         <p class="logo">Golden</p>
+      <nav class="main-nav ">
+        <a href="#">
+         <img class="logo" src="img/Logo.png" alt="inscripyion golden" />
+         </a>
         <ul class="site-navigation ">
           <li><a href="#" >Home</a></li>
           <li><a href="#" >Service</a></li>
@@ -23,7 +25,7 @@
     </header>
     <main class="main ">
       <!-- team section -->
-      <section class="team ">
+      <section class="team container">
         <div class="team-div">
           <h2 class="team-title">Services</h2>
         </div>
@@ -83,16 +85,15 @@
       <!--team-contact section-->
 
       <section class="team-contact">
-        <div class="formaa"></div>
-        <div class="banner container"></div>
-        <div class="wall">
+        <div class="banner"></div>
+         <div class="wall container">
           <div class="team-div">
             <h2 class="team-title-two">Contact Us</h2>
           </div>
           <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
         </div>
-        <form class="field" method="POST" action="#">
-          <div class="enter">
+        <form method="POST" action="#">
+          <div class="enter container">
             <div class="toch">
               <input type="name" name="yourname" placeholder="YOUR NAME*" required />
               <input type="email" name="youremail" placeholder="YOUR E-MAIL*" required />
@@ -107,7 +108,7 @@
             rows="10"
             ></textarea>
           </div>
-          <div>
+          <div class="buttomsend container">
             <button class="send">Send Message</button>
           </div>
         </form>

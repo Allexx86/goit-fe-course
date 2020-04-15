@@ -18,30 +18,36 @@ body {
   margin: 0 auto;
 }
 
-
-
 .main-nav {
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   padding: 0;
   margin: 0;
   margin-top: 54px;
   margin-bottom: 128px;
-  display: flex;
-  justify-content: space-between;
 }
+
 .site-navigation {
   padding: 0;
   margin: 0;
   display: flex;
   list-style: none;
   justify-content: space-between;
-  width: 480px;
 }
+
+.site-navigation li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.site-navigation li {
+  transition: color 400ms cubic-bezier(0.43, -0.03, 1, 1);
+}
+
 .site-navigation a {
   font-family: "Montserrat";
   line-height: 1.2;
-  font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   text-decoration: none;
   text-transform: uppercase;
@@ -53,107 +59,122 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
-    url("../fonts/montserrat-v14-latin-regular.woff") format("woff"),
-    url("../font-family/wisdom-script-cufonfonts/Wisdom\ Script\ AJ.otf") format("otf"),
-    url("../font-family/droid-serif/DroidSerif-Italic.ttf") format("ttf");
+    url("../font-family/montserrat-v14-latin-regular.woff2") format("woff2"),
+    url("../font-family/montserrat-v14-latin-regular.woff") format("woff"),
+    url("../font-family/ AJ.otf") format("otf"),
+    url("../font-family/DroidSerif-Italic.ttf") format("ttf");
 }
 
 .logo {
-  font-family: "Wisdom Script";
-  color: #fed136;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 1.577;
   display: flex;
+  cursor: initial;
   justify-content: flex-start;
   padding: 0;
   margin: 0;
-  list-style: none;
 }
-section.team {
-    margin-left: 205px;
-    margin-right: 205px;
-}
+
 .team-title {
   font-family: "Montserrat";
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
   color: #222222;
   font-weight: 700;
 }
+
 .subtitle {
-  font-family: "Droid Serif", sans-serif;
+  justify-content: flex-start;
+  font-family: "Ralevay", sans-serif;
   font-style: italic;
   font-size: 16px;
+  color: #777777;
   line-height: 1.2;
   margin: 0;
   padding: 0;
-  margin-bottom: 80px;
+  margin-bottom: 80px; 
   text-align: center;
 }
 
 .site-navigation :hover {
   color: #fed136;
 }
+
 .toch {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
 }
+
 .toch input[type="email"]:valid {
   border-color: #4ce840;
 }
+
 .toch input[type="email"]:invalid {
   border-color: #f91323;
 }
+
 .toch input[type="name"]:valid {
   border-color: #4ce840;
 }
+
 .toch input[type="name"]:invalid {
   border-color: #f91323;
 }
+
 textarea[type="message"]:valid {
   border-color: #4ce840;
 }
+
 textarea[type="message"]:invalid {
   border-color: #f91323;
 }
+
 .enter input::placeholder {
   text-transform: uppercase;
   font-weight: 600;
   color: #bbbbbb;
-  padding-left: 20px;
   padding-top: 20px;
 }
+
 .enter input {
-  margin-bottom: 28px;
   width: 455px;
   height: 52px;
 }
+
+input {
+  padding-left: 20px;
+  border-radius: 2px;
+}
+
 textarea::placeholder {
   text-transform: uppercase;
   font-weight: 600;
   color: #bbbbbb;
-  padding-left: 20px;
-  padding-top: 20px;
 }
+
 textarea {
-  margin-left: 30px;
+  padding-left: 20px; 
+  padding-top: 20px;
+  border-radius: 2px;
+}
+
+textarea {
   width: 455px;
   height: 212px;
 }
+
 .enter {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
+
 .desname {
   font-family: "Montserrat";
-  font-weight: bold;
   padding: 0;
   margin: 0;
   margin-bottom: 12px;
@@ -164,22 +185,31 @@ textarea {
   text-align: center;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../font-family/montserrat-v14-latin-700.woff2") format("woff2"),
+          url("../font-family/montserrat-v14-latin-700.woff") format("woff");
+}
 
 .teamp {
   font-family: "Roboto Slab";
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.2;
   text-align: center;
   margin: 0;
   padding: 0;
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   src: local(""),
-  url("../font-family/roboto-v20-latin/roboto-v20-latin-regular.woff") format("woff2");
+  url("../font-family/roboto-v20-latin-regular.woff") format("woff2");
 
 }
 .team-list-item {
@@ -189,12 +219,12 @@ textarea {
 .team-lister {
   display: flex;
   justify-content: space-around;
-  width: 100%;
   margin:0;
   padding: 0;
   margin-bottom: 124px;
   list-style: none;
 }
+
 .all {
   position: relative;
   text-align: center;
@@ -215,7 +245,8 @@ textarea {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  padding-top: 112px;
+  margin-bottom: 10px;
+  padding-top: 100px;
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
@@ -223,22 +254,41 @@ textarea {
   color: #ffffff;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../font-family/montserrat-v14-latin-700.woff2") format("woff2"),
+          url("../font-family/montserrat-v14-latin-700.woff") format("woff");
+}
 
 .team-contact {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
   background-image: url("../img/map.png");
-  min-height: 677px;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.buttomsend {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
 .send {
+  align-self: center;
+  align-items: center;
   font-family: "Montserrat";
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+   margin-top: 28px; 
   font-size: 18px;
   line-height: 1.2;
   font-weight: 700;
@@ -249,9 +299,6 @@ textarea {
   color: #fffcf2;
 }
 
-.field {
-  text-align: center;
-}
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
