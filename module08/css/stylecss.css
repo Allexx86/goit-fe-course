@@ -86,6 +86,8 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .butt-part {
@@ -239,6 +241,8 @@ li {
   .nav-header {
     background-image: url("../img/tab\ object.png");
     background-color: rgb(26, 25, 21);
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .logo {
@@ -331,6 +335,8 @@ li {
   .nav-header {
     background-image: url("../img/decktop\ object.png");
     background-color: rgb(26, 25, 21);
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .main-nav {
