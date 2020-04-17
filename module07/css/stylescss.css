@@ -267,6 +267,8 @@ textarea {
   text-align: center;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 110px;
+  margin-bottom: 15px;
 }
 
 
@@ -279,6 +281,8 @@ textarea {
   margin: 0;
   padding: 0;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 78px;
 }
 
 .buttomsend {
@@ -295,7 +299,7 @@ textarea {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-   margin-top: 28px; 
+  margin-top: 28px; 
   font-size: 18px;
   line-height: 1.2;
   font-weight: 700;
@@ -311,7 +315,11 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 269px;
+  /* height: 269px; */
+}
+
+form {
+  margin-bottom: 15px;
 }
 
 

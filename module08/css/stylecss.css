@@ -45,7 +45,7 @@ h3 {
 .nav-header {
   padding: 0;
 }
-.navigation {
+.container {
   position: relative;
   width: 320px;
   margin: auto;
@@ -111,7 +111,7 @@ img {
 .visually {
   text-transform: uppercase;
 }
-.navigation {
+.container {
   position: relative;
 }
 
@@ -259,29 +259,35 @@ h1 {
 @media screen and (min-width: 768px) {
   .container {
     width: 760px;
-
     margin: auto;
   }
+
   .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .one {
     order: 1;
   }
+
   .two {
     order: 3;
   }
+
   .three {
     order: 2;
   }
+
   .four {
     order: 4;
   }
+
   .list-item {
     width: 256px;
   }
+
   .other {
     width: 190px;
   }
@@ -292,7 +298,8 @@ h1 {
     background-image: url("../img/tab\ object.png");
     background-color: rgb(26, 25, 21);
   }
-  .navigation {
+
+  .container {
     width: 768px;
   }
   h1 {
@@ -375,40 +382,48 @@ h1 {
     background-position: center;
   }
 
-  .navigation {
+  .container {
     width: 1440px;
   }
+
   h1 {
     top: 220px;
     width: 503px;
     font-size: 52px;
   }
+
   .partner {
     font-size: 24px;
     width: 404px;
     top: 365px;
   }
+
   .butt-part {
     height: 40px;
     width: 230px;
     top: 426px;
   }
+
   .conn {
     width: 172px;
   }
+
   .up {
     top: 40px;
     right: 250px;
   }
+
   .in {
     top: 40px;
     right: 335px;
   }
+
   .logo {
     top: 42px;
     left: 250px;
     transform: none;
   }
+  
 }
 .Rectangle_1 {
   background-color: rgb(26, 25, 21);
@@ -424,15 +439,12 @@ h1 {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
