@@ -1,0 +1,16 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'helpers/variables';
+@import 'helpers/mixin';
+@import 'helpers/placeholders';
+
+
+@import 'normalize';
+@import 'base';
+
+// COMPONENTS
+
+@import 'components/header';
+@import 'components/card';
