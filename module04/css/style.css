@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: "Roboto";
   font-family: "Open Sans";
@@ -22,6 +24,7 @@ nav.main-nav {
   margin-top: 38px;
   margin-bottom: 75px;
 }
+
 .flit {
   width: 350px;
 }
@@ -41,6 +44,7 @@ li:hover .vip-pc-lot {
 li:hover .vip-pc {
   background-color: #1abc9c;
 }
+
 .team-list-t {
   margin-top: 0px;
   margin-left: 0px;
@@ -50,32 +54,38 @@ li:hover .vip-pc {
   list-style: none;
 }
 
-
 .team-list-item {
   position: relative;
   float: left;
   margin-bottom: 28px;
   margin-right: 28px;
 }
+
 .team-list-img {
   width: 255px;
   height: 322px;
 }
+
 .team-title-t {
   margin-bottom: 81px;
 }
+
 .team-list-item:nth-child(4n) {
   margin-right: 0px;
 }
+
 .team-list-item:nth-of-type(5n) {
   margin-bottom: 0px;
 }
+
 .team-list-item:nth-of-type(6n) {
   margin-bottom: 0px;
 }
+
 .team-list-item:nth-of-type(7n) {
   margin-bottom: 0px;
 }
+
 .team-list-item:nth-of-type(8n) {
   margin-bottom: 0px;
 }
@@ -117,7 +127,6 @@ margin: auto;
   margin: auto;
 }
 
-
 .vip p {
   list-style: none;
   padding-top: 4px;
@@ -127,6 +136,7 @@ margin: auto;
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .vip-pc-lot {
   padding-left: 10px;
   float: left;
@@ -135,6 +145,7 @@ margin: auto;
   background-color: #8c8c8c;
   margin: 0px;
 }
+
 .vip-pc {
   padding-left: 13px;
   margin: 0px;
@@ -154,6 +165,7 @@ h2 {
   margin: 0px;
   margin-bottom: 120px;
 }
+
 h2::after {
   position: absolute;
   display: inline-block;
@@ -166,6 +178,7 @@ h2::after {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .container {
   width: 1110px;
   margin: auto;
@@ -194,6 +207,7 @@ h2::after {
 .site-navigation li:nth-of-type(6n) {
   margin: 0px;
 }
+
 .site-navigation li {
   margin-right: 35px;
   float: left;
@@ -202,9 +216,11 @@ h2::after {
   color: #7fd9c7;
   text-decoration: underline;
 }
+
 ul.site-navigation {
   margin: 0px;
 }
+
 .site-navigation {
   float: right;
   list-style: none;
@@ -221,10 +237,12 @@ ul.site-navigation {
   width: 350px;
   height: 262px;
 }
+
 .load {
   display: inline-block;
   border: 0px;
 }
+
 .load-t {
   border: 0px;
   font-size: 16px;
@@ -239,24 +257,29 @@ ul.site-navigation {
   color: #ffffff;
   font-weight: 300;
 }
+
 button.load-t {
   border-radius: 6px;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .team-list-itemet {
   position: relative;
   width: 255px;
   height: 282px;
 }
+
 div.vip {
   width: 100%;
   position: absolute;
   z-index: 2;
 }
+
 .clearfix::after {
   display: table;
   content: "";
@@ -267,15 +290,12 @@ div.vip {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
