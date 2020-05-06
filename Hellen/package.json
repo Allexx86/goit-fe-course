@@ -1,7 +1,7 @@
 {
-  "name": "gulp-starter-kit",
+  "name": "hellen",
   "version": "1.2.0",
-  "description": "",
+  "description": "![Banner](./banner.png)",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=1234 gulp start --development ",
@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": "https://aleksgoit.github.io/goit-fe-course/hellen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/AleksGoIt/goit-fe-course.git"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
@@ -48,5 +48,8 @@
     "gulp-uglify": "^3.0.2",
     "require-dir": "^1.2.0",
     "usedcss": "^1.0.7"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
   }
 }
