@@ -14,6 +14,13 @@ html {
   background-size: cover;
   background-position: center;
   text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+section {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .pkt {
@@ -222,6 +229,7 @@ html {
   }
 
   .search {
+    margin-left: 40;
     padding-left: 24px;
     padding-right: 24px;
     margin-bottom: 230px;
