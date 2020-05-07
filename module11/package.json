@@ -54,7 +54,7 @@
     "angular-expressions": "^1.1.1",
     "kind-of": "^6.0.3",
     "lodash.template": "^4.5.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.3",
     "node-sass": "^4.14.1"
   }
 }
