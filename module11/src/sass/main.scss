@@ -1,6 +1,15 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/placeholder.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+@import 'helpers/container.scss';
+@import 'helpers/text.scss';
+// COMPONENTS
+@import 'components/header.scss';
+@import 'components/service.scss';
+@import 'components/team.scss';
+@import 'components/footer.scss';

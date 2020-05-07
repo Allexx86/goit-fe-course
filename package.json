@@ -1,0 +1,24 @@
+{
+  "name": "goit-fe-course",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/AleksGoIt/goit-fe-course/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+  "scss:build": "node-scss hellen/src/scss/styles/scss -o hellen/src/css",
+  "scss:watch": "node-scss --watch hellen/src/scss/styles/scss -o hellen/src/css",
+  "build": " npm run scss:build && npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksGoIt/goit-fe-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksGoIt/goit-fe-course/issues"
+  },
+  "homepage": "https://github.com/AleksGoIt/goit-fe-course#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
