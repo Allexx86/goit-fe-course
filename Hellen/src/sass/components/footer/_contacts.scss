@@ -18,6 +18,11 @@
     }
   }
 
+  &__link-number {
+    text-decoration: none;
+    display: flex;
+  }
+
   &__tell {
     fill: $primary-color;
     width: 25px;

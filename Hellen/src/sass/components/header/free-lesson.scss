@@ -17,6 +17,7 @@
     }
   }
 }
+
 .wraper-info-free-lesson {
   @media (min-width: 768px) {
     flex-basis: 285px;
@@ -87,6 +88,7 @@
 
   &__button {
     @extend %button-free-lesson;
+    @extend %cursor-pointer;
 
     @media (max-width: 767px) {
       margin: 0 auto 35px;
